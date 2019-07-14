@@ -1,0 +1,87 @@
+header{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.flex-container {
+  background-image: url('../img/img-1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  width: 899px;
+  height: 440px;
+}
+
+.flex-container > div {
+  background-color: $white;
+  height: 136px;
+  width: 170px;
+  padding-top: 20px;
+}
+
+.uno{
+  padding-left: 35px;
+}
+.dos{
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+.tres{
+    padding-right: 30px;
+}
+
+.square {
+display: flex;
+align-items: flex-end;
+justify-content: flex-end;
+z-index: -1;
+}
+
+
+.square-red {
+background-color:$flame;
+z-index: 0;
+left: 1015px;
+position: absolute;
+top:380px;
+height: 134px;
+width: 134px;
+}
+
+.square-amarillo {
+background-color: #EACB31;
+left: 1015px;
+position: absolute;
+top:405px;
+z-index: -3;
+height: 134px;
+width: 154px;
+}
+
+.icono {
+  font-size: 3rem;
+  color: $white;
+  padding-left: 45px;
+  padding-top: 30px;
+}
+
+.icono svg {
+  fill: #ffffff;
+}
+
+.cafe-agere{
+  width: 150px;
+   height: 200px;
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-align-content: center;
+    vertical-align: baseline;
+    top: -650px;
+    right: -1100px;
+
+}

@@ -1,0 +1,29 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  font-family: $PT-Mono, monospace;
+}
+
+h1 {
+  font-size: $xxx-large;
+}
+
+h2{
+  font-size: $xx-large;
+  margin-bottom: 0px;
+}
+
+h3{
+  font-size: $x-large;
+}
+
+p {
+  font-family: $roboto, sans-serif;
+  font-size: $medium;
+  font-weight: $light2;
+  line-height: 20px;
+
+}
